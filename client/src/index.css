@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*App*/
+.App{
+  display: flex;
+}
+
+.layout{
+  display: flex;
+}
+/*sidebar*/
+.sidebar{
+  background: #3d75c9e0;
+    color: white;
+    width: 223px;
+    height: 100vh;
+}
+.sidebar .fa-bars{
+  padding-left: 11px;
+}
+.sidebar img{
+  height: 41px;
+    border-radius: 305px;
+    width: 46px;
+    margin-left: 19px;
+    margin-top: 7px;
+}
+.sidebar select{
+  width: 193px;
+    color: white;
+    border: 1px solid #7777af38;
+    background: #5485cf;
+}
+.sidebar .tab1{
+  text-decoration: none;
+    padding-bottom: 9px;
+    padding-top: 10px;
+}
+.sidebar .tab1 i{
+  padding-left: 10px;
+}
+.sidebar a{
+  padding-left: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.sidebar button{
+  background: #5485cf;
+    border: none;
+    color: wheat;
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*header*/
+.header{
+  display: flex;
+    align-items: center;
+    margin-top: -12vh;
+    max-height: 31vh;
+}
+.header img{
+  height: 25px;
+    padding-left: 117px;
+}
+.header button{
+  margin-left: 539px;
+    width: 112px;
+    padding: 5px;
+    background: #5485cf;
+    color: white;
+}
+.my-finance{
+  display: flex;
+}
+.my-finance .tabs{
+  margin-top: 57px;
+    display: flex;
+    align-items: center;
+    margin-left: -138vh;
+    max-height: 105px;
+    background: #5485cf;
+    gap: 11px;
+    width: 171vh;
+}
+.my-finance button{
+  padding: 5px;
+    background: #5485cf;
+    margin-left: 18px;
+    color: white;
+}
+.income .body{
+  margin-top: 205px;
+}
+.expense .body{
+  margin-top: 205px;
+}
+.popup-form .exincome{
+  margin-left: -2vh;
+    width: 30vh;
+    padding-left: 12px;
+}
+.popup-form .transfer{
+  margin-left: 2vh;
+    width: 30vh;
+    padding-left: 12px;
+}
+.popup-form .close{
+  margin-left: 50vh;
+    /* padding: 2px; */
+    padding-left: 10px;
+}
+.popup-form .submit{
+  margin-left: 18vh;
+    margin-top: 13px;
+    /* padding: 2px; */
+    padding-left: 10px;
+}
+
+/*pop-up form */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-form h2 {
+  margin-top: 0;
+}
+
+.popup-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popup-form button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup-form button:hover {
+  background-color: #45a049;
+}
+
+.goals{
+  margin-top: 123px;
+    margin-left: -257vh;
+}
+.goals .tabs input{
+  margin-left: 16px;
+}
+.goals-table table{
+  margin-top: 19px;
+}
+.goals-table table thead tr th{
+  margin-right:5px;
+}
